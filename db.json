@@ -1,19 +1,13 @@
 {
-  "posts": [
+  "songs": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "artist": "json-server",
+      "songName": "typicode",
+      "genre": "rock",
+      "plays": 10,
+      "image": "someurl.jpg",
+      "releaseDate": null
     }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
