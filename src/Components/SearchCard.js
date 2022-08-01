@@ -1,6 +1,6 @@
 import React from 'react'
 
-function LibraryCard({song}) {
+function SearchCard({song}) {
 
 
 
@@ -15,4 +15,4 @@ function LibraryCard({song}) {
   )
 }
 
-export default LibraryCard
+export default SearchCard

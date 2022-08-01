@@ -1,4 +1,4 @@
-// import './App.css';
+// import '../';
 import React, {useEffect, useState} from 'react';
 import {Route, Switch } from 'react-router-dom';
 import Home from './Home';
@@ -25,7 +25,7 @@ function App() {
           <Library/>
         </Route>
         <Route path ="/search">
-          <Search/>
+          <Search songs={songs}/>
         </Route>
         <Route exact path ="/">
           <Home songs={songs}/>

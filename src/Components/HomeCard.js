@@ -7,6 +7,7 @@ function HomeCard({release}) {
       <img src={release.image} alt='Album cover'/>
       <h3>{release.songName}</h3>
       <h4>{release.artist}</h4>
+      <h4>{release.album}</h4>
       <p>{release.plays}</p>
     </div>
   )
