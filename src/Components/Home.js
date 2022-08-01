@@ -1,16 +1,24 @@
 import React from 'react'
+import HomeCard from './HomeCard'
 
-function Home() {
+function Home({songs}) {
+
+  const newReleases = [...songs].sort((a, b) =>Date.parse(b.releaseDate) - Date.parse(a.releaseDate))
+
+  const popularReleases = [...songs].sort((a, b) => b.plays - a.plays)
+
+  console.log(newReleases)
+
   return (
     <div className="home">
         Home
-        <div>
+        <div className='newReleases'>
             New Releases
-            {/* map something by release date */}
+            {newReleases.map(release => <HomeCard key={release.id} release={release} /> )}
         </div>
-        <div>
+        <div className='popularReleases'>
             Popular Releases
-            {/* map something by number of plays */}
+            {popularReleases.map(release => <HomeCard key={release.id} release={release} />)}
         </div>
     </div>
   )

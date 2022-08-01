@@ -2,12 +2,33 @@
   "songs": [
     {
       "id": 1,
-      "artist": "json-server",
-      "songName": "typicode",
-      "genre": "rock",
-      "plays": 10,
+      "artist": "Alie",
+      "songName": "Groove Thang",
+      "genre": "disco",
+      "plays": 2,
       "image": "someurl.jpg",
-      "releaseDate": null
+      "releaseDate": "1999-01-03",
+      "favorited": false
+    },
+    {
+      "id": 2,
+      "artist": "Victor",
+      "songName": "Guitar Noise",
+      "genre": "hardcore",
+      "plays": 1200,
+      "image": "someurl.jpg",
+      "releaseDate": "1986-05-21",
+      "favorited": false
+    },
+    {
+      "id": 3,
+      "artist": "Yoojin",
+      "songName": "I don't know",
+      "genre": "hip hop",
+      "plays": 650,
+      "image": "someurl.jpg",
+      "releaseDate": "2000-06-28",
+      "favorited": false
     }
   ]
 }
