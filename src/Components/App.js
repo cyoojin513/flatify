@@ -5,7 +5,7 @@ import Home from './Home';
 import Library from './Library';
 import Search from './Search';
 import NavBar from './NavBar';
-
+import ForArtists from './ForArtists';
 
 function App() {
   const [songs, setSongs] = useState([])
@@ -16,6 +16,7 @@ function App() {
       .then(r => r.json())
       .then(jsonSongs => setSongs(jsonSongs))
   }, [])
+
 
   function toggleFavoritedSong(songId, favoriteStatus) {
     fetch(`http://localhost:3000/songs/${songId}`, {
@@ -35,6 +36,9 @@ function App() {
           return song
         }
       })))
+
+  function updateSongsWithUserUpload(songObj){
+    setSongs((songs) => [...songs, songObj])
   }
 
 
@@ -47,6 +51,9 @@ function App() {
         </Route>
         <Route path ="/search">
           <Search songs={songs} toggleFavoritedSong={toggleFavoritedSong}/>
+        </Route>
+        <Route path ="/for-artists">
+          <ForArtists updateSongsWithUserUpload={updateSongsWithUserUpload}/>
         </Route>
         <Route exact path ="/">
           <Home songs={songs} toggleFavoritedSong={toggleFavoritedSong}/>
