@@ -36,6 +36,7 @@ function App() {
           return song
         }
       })))
+  }
 
   function updateSongsWithUserUpload(songObj){
     setSongs((songs) => [...songs, songObj])
