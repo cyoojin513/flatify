@@ -1,6 +1,7 @@
 import React from 'react'
+import LibraryCard from './LibraryCard'
 
-function Library() {
+function Library({songs, toggleFavoritedSong}) {
   return (
     <div>
         Library
@@ -8,7 +9,8 @@ function Library() {
             Welcome, Static-User
             <div className='favorites'>
                 Favorites go here:
-                {/* Map over list of favorites for (static) user */}
+                {songs.map(song => song.favorited ? <LibraryCard song={song} toggleFavoritedSong={toggleFavoritedSong}/>: null
+                )}
             </div>
         </div>
     </div>

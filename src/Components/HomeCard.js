@@ -1,14 +1,17 @@
 import React from 'react'
 
-function HomeCard({release}) {
+function HomeCard({song, toggleFavoritedSong}) {
+
+
 
   return (
     <div className='songCard'>
-      <img src={release.image} alt='Album cover'/>
-      <h3>{release.songName}</h3>
-      <h4>{release.artist}</h4>
-      <h4>{release.album}</h4>
-      <p>{release.plays}</p>
+      <img src={song.image} alt='Album cover'/>
+      <h3>{song.songName}</h3>
+      <h4>{song.artist}</h4>
+      <h4>{song.album}</h4>
+      <p>{song.plays}</p>
+      <button className='favorite' onClick={() => toggleFavoritedSong(song.id, !song.favorited)}>{song.favorited ? "Full Heart": "Empty Heart"}</button>
     </div>
   )
 }

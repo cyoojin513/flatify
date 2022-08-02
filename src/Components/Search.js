@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import SearchCard from './SearchCard'
 
-function Search({songs}) {
+function Search({songs, toggleFavoritedSong}) {
   const [data, setData] = useState("")
 
   const handleChange = (e) => {
@@ -18,7 +18,7 @@ function Search({songs}) {
     <div>
         Search
         <input onChange={handleChange}></input>
-        {searchedData.map(song => <SearchCard key={song.id} song={song}/>)}
+        {searchedData.map(song => <SearchCard key={song.id} song={song} toggleFavoritedSong={toggleFavoritedSong}/>)}
     </div>
   )
 }

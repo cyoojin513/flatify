@@ -33,5 +33,24 @@
       "releaseDate": "2000-06-28",
       "favorited": false
     }
-  ]
+  ],
+  "users": {
+    "user1": {
+      "id": 1,
+      "userName": "BlahBlah",
+      "library": [
+        {
+          "id": 1,
+          "artist": "Alie",
+          "songName": "Groove Thang",
+          "album": "1999 Finest Disco",
+          "genre": "disco",
+          "plays": 2,
+          "image": "https://images.squarespace-cdn.com/content/v1/604c18096c8eba3fe76e1da5/1615705979983-4ED97SZ63J90WHQ1O5M0/feeling-groovy.jpg?format=1000w",
+          "releaseDate": "1999-01-03",
+          "favorited": false
+        }
+      ]
+    }
+  }
 }
