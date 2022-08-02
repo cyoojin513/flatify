@@ -6,6 +6,8 @@ import Library from './Library';
 import Search from './Search';
 import NavBar from './NavBar';
 import ForArtists from './ForArtists';
+import styled from 'styled-components';
+import ContentWrapper from './Styles/ContentWrapper'
 
 function App() {
   const [songs, setSongs] = useState([])
@@ -46,20 +48,22 @@ function App() {
   return (
     <div className="App">
       <NavBar/>
-      <Switch>
-        <Route path ="/library">
-          <Library songs={songs} toggleFavoritedSong={toggleFavoritedSong}/>
-        </Route>
-        <Route path ="/search">
-          <Search songs={songs} toggleFavoritedSong={toggleFavoritedSong}/>
-        </Route>
-        <Route path ="/for-artists">
-          <ForArtists updateSongsWithUserUpload={updateSongsWithUserUpload}/>
-        </Route>
-        <Route exact path ="/">
-          <Home songs={songs} toggleFavoritedSong={toggleFavoritedSong}/>
-        </Route>
-      </Switch>
+      <ContentWrapper>
+        <Switch>
+          <Route path ="/library">
+            <Library songs={songs} toggleFavoritedSong={toggleFavoritedSong}/>
+          </Route>
+          <Route path ="/search">
+            <Search songs={songs} toggleFavoritedSong={toggleFavoritedSong}/>
+          </Route>
+          <Route path ="/for-artists">
+            <ForArtists updateSongsWithUserUpload={updateSongsWithUserUpload}/>
+          </Route>
+          <Route exact path ="/">
+            <Home songs={songs} toggleFavoritedSong={toggleFavoritedSong}/>
+          </Route>
+        </Switch>
+      </ContentWrapper>
     </div>
   );
 }
