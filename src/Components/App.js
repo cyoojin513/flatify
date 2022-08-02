@@ -10,11 +10,32 @@ import ForArtists from './ForArtists';
 function App() {
   const [songs, setSongs] = useState([])
 
+
   useEffect(()=> {
     fetch(`http://localhost:3000/songs`)
       .then(r => r.json())
       .then(jsonSongs => setSongs(jsonSongs))
   }, [])
+
+
+  function toggleFavoritedSong(songId, favoriteStatus) {
+    fetch(`http://localhost:3000/songs/${songId}`, {
+      method: 'PATCH',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        favorited: favoriteStatus
+      })
+    })
+      .then(r => r.json())
+      .then(newSong => setSongs(songs.map(song => {
+        if(song.id === newSong.id) {
+          return newSong
+        } else {
+          return song
+        }
+      })))
 
   function updateSongsWithUserUpload(songObj){
     setSongs((songs) => [...songs, songObj])
@@ -26,16 +47,16 @@ function App() {
       <NavBar/>
       <Switch>
         <Route path ="/library">
-          <Library/>
+          <Library songs={songs} toggleFavoritedSong={toggleFavoritedSong}/>
         </Route>
         <Route path ="/search">
-          <Search songs={songs}/>
+          <Search songs={songs} toggleFavoritedSong={toggleFavoritedSong}/>
         </Route>
         <Route path ="/for-artists">
           <ForArtists updateSongsWithUserUpload={updateSongsWithUserUpload}/>
         </Route>
         <Route exact path ="/">
-          <Home songs={songs}/>
+          <Home songs={songs} toggleFavoritedSong={toggleFavoritedSong}/>
         </Route>
       </Switch>
     </div>
