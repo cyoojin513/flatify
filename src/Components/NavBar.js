@@ -13,6 +13,9 @@ function NavBar() {
       <NavLink exact to='/search'>
         Search
       </NavLink>
+      <NavLink exact to='/for-artists'>
+        For Artists
+      </NavLink>
     </div>
   )
 }
