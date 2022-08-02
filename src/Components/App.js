@@ -16,6 +16,10 @@ function App() {
       .then(jsonSongs => setSongs(jsonSongs))
   }, [])
 
+  function updateSongsWithUserUpload(songObj){
+    setSongs((songs) => [...songs, songObj])
+  }
+
 
   return (
     <div className="App">
@@ -28,7 +32,7 @@ function App() {
           <Search songs={songs}/>
         </Route>
         <Route path ="/for-artists">
-          <ForArtists/>
+          <ForArtists updateSongsWithUserUpload={updateSongsWithUserUpload}/>
         </Route>
         <Route exact path ="/">
           <Home songs={songs}/>
