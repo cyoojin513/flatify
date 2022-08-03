@@ -5,18 +5,18 @@ import Navigation, {NavWrapper} from './Styles/Navigation'
 function NavBar() {
   return (
     <NavWrapper>
-      <NavLink exact to='/'>
-        <Navigation>Home</Navigation>
-      </NavLink>
-      <NavLink exact to='/library'>
-        <Navigation>Library</Navigation>
-      </NavLink>
-      <NavLink exact to='/search'>
-        <Navigation>Search</Navigation>
-      </NavLink>
-      <NavLink exact to='/for-artists'>
-        <Navigation>For Artists</Navigation>
-      </NavLink>
+      <Navigation as={NavLink} exact to='/'>
+        Home
+      </Navigation>
+      <Navigation as={NavLink} exact to='/library'>
+        Library
+      </Navigation>
+      <Navigation as={NavLink} exact to='/search'>
+        Search
+      </Navigation>
+      <Navigation as={NavLink} exact to='/for-artists'>
+        For Artists
+      </Navigation>
     </NavWrapper>
   )
 }

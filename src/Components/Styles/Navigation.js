@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const Navigation = styled.button`
+const Navigation = styled.li`
   border-radius: 5px;
   font-size: 17px;
   font-family: 'Source Sans Pro', sans-serif;
@@ -9,7 +9,11 @@ const Navigation = styled.button`
   cursor: pointer;
   background-color: black;
   color: lightgrey;
-  &:active {color: red};
+
+  
+  &.active, :hover {
+    color: white
+  }
 `
 
 const NavWrapper = styled.nav`
