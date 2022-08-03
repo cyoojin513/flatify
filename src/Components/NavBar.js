@@ -1,6 +1,6 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom'
-import Navigation, {NavWrapper} from './Styles/Navigation'
+import Navigation, {NavWrapper} from './Styles/Navigation.style'
 
 function NavBar() {
   return (
