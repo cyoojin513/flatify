@@ -5,7 +5,7 @@ const PageWrapper = styled.div`
   display: grid;
   grid-template-columns: 200px 1fr;
   grid-template-rows: 1fr;
-  gap: 10px;
+  gap: 30px;
   background-color: #141311;
 `
 

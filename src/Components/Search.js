@@ -23,9 +23,11 @@ function Search({songs, toggleFavoritedSong}) {
   return (
     <>
       <SearchHeader>
-          <RiSearchLine color="black"/>
-          <Input placeholder="Artists, songs, genre, or albums" onChange={handleChange}></Input>
-          <h1>Search...</h1>
+          <div className='holder'>
+            <RiSearchLine color="black"/>
+            <Input placeholder="Artists, songs, genre, or albums" onChange={handleChange}></Input>
+          </div>
+          <h2>Search...</h2>
       </SearchHeader>
       <ContentGrid>
         {searchedData.map(song => <SearchCard key={song.id} song={song} toggleFavoritedSong={toggleFavoritedSong}/>)}
