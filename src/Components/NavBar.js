@@ -3,6 +3,9 @@ import {NavLink} from 'react-router-dom'
 import {Navigation, NavWrapper} from './Styles/Navigation.style'
 import {RiSpotifyFill} from 'react-icons/ri'
 import {MdHome, MdOutlineHome} from 'react-icons/md'
+import { RiSearchLine } from 'react-icons/ri'
+import {HiMusicNote, HiOutlineMusicNote} from 'react-icons/hi'
+import {BiLibrary} from 'react-icons/bi'
 
 function NavBar() {
   return (
@@ -11,16 +14,16 @@ function NavBar() {
         <RiSpotifyFill color='white'/>
       </div>
         <Navigation as={NavLink} exact to='/'>
-          Home
+          <MdHome/>Home
         </Navigation>
         <Navigation as={NavLink} exact to='/library'>
-          Library
+          <BiLibrary/>Library
         </Navigation>
         <Navigation as={NavLink} exact to='/search'>
-          Search
+          <RiSearchLine/>Search
         </Navigation>
         <Navigation as={NavLink} exact to='/for-artists'>
-          For Artists
+          <HiMusicNote/>For Artists
         </Navigation>
     </NavWrapper>
   )
