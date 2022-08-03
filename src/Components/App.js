@@ -6,7 +6,7 @@ import Library from './Library';
 import Search from './Search';
 import NavBar from './NavBar';
 import ForArtists from './ForArtists';
-import ContentWrapper, {MainContentWrapper} from './Styles/ContentWrapper';
+import PageWrapper, {MainContentWrapper} from './Styles/Grids.style';
 
 function App() {
   const [songs, setSongs] = useState([])
@@ -45,7 +45,7 @@ function App() {
 
 
   return (
-    <ContentWrapper>
+    <PageWrapper>
       <NavBar/>
       <MainContentWrapper>
       <Switch>
@@ -63,7 +63,7 @@ function App() {
         </Route>
       </Switch>
       </MainContentWrapper>
-    </ContentWrapper>
+    </PageWrapper>
   );
 }
 
