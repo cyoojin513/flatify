@@ -6,7 +6,6 @@ import Library from './Library';
 import Search from './Search';
 import NavBar from './NavBar';
 import ForArtists from './ForArtists';
-import styled from 'styled-components';
 import ContentWrapper from './Styles/ContentWrapper'
 
 function App() {
