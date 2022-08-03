@@ -7,6 +7,7 @@ import Search from './Search';
 import NavBar from './NavBar';
 import ForArtists from './ForArtists';
 import PageWrapper, {MainContentWrapper} from './Styles/Grids.style';
+import GlobalStyles from '../GlobalStyles';
 
 function App() {
   const [songs, setSongs] = useState([])
@@ -46,6 +47,7 @@ function App() {
 
   return (
     <PageWrapper>
+    <GlobalStyles/>
       <NavBar/>
       <MainContentWrapper>
       <Switch>
