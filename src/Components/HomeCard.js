@@ -1,17 +1,21 @@
 import React from 'react'
-import Card from './Shared/Card'
+import Card from './Styles/Card'
+import { HiOutlineHeart, HiHeart } from 'react-icons/hi';
 
 function HomeCard({song, toggleFavoritedSong}) {
 
   return (
     <Card>
-      <div>
-        <img src={song.image} alt='Album cover'/>
-        <h3>{song.songName}</h3>
+      <img src={song.image} alt='Album cover'/>
+      <div id="container">
+        <h3>{song.album}</h3>
+        <h4>{song.songName}</h4>
         <h4>{song.artist}</h4>
-        <h4>{song.album}</h4>
-        <p>{song.plays}</p>
-        <button className='favorite' onClick={() => toggleFavoritedSong(song.id, !song.favorited)}>{song.favorited ? "Full Heart": "Empty Heart"}</button>
+        {/* <p>{song.plays}</p> */}
+        <h4 className='favorite' onClick={() => 
+        toggleFavoritedSong(song.id, !song.favorited)}>
+          {song.favorited ? <HiHeart color='#1dd761'/> : <HiOutlineHeart/>}
+      </h4>
       </div>
     </Card>
   )
