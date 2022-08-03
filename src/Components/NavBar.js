@@ -1,23 +1,25 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom'
+import Navigation, {NavWrapper} from './Styles/Navigation'
 
 function NavBar() {
   return (
-    <div className='navbar'>
-      <NavLink exact to='/'>
+    <NavWrapper>
+      <Navigation as={NavLink} exact to='/'>
         Home
-      </NavLink>
-      <NavLink exact to='/library'>
+      </Navigation>
+      <Navigation as={NavLink} exact to='/library'>
         Library
-      </NavLink>
-      <NavLink exact to='/search'>
+      </Navigation>
+      <Navigation as={NavLink} exact to='/search'>
         Search
-      </NavLink>
-      <NavLink exact to='/for-artists'>
+      </Navigation>
+      <Navigation as={NavLink} exact to='/for-artists'>
         For Artists
-      </NavLink>
-    </div>
+      </Navigation>
+    </NavWrapper>
   )
 }
 
 export default NavBar
+

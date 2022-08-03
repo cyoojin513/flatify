@@ -6,6 +6,7 @@ import Library from './Library';
 import Search from './Search';
 import NavBar from './NavBar';
 import ForArtists from './ForArtists';
+import ContentWrapper, {MainContentWrapper} from './Styles/ContentWrapper';
 
 function App() {
   const [songs, setSongs] = useState([])
@@ -44,8 +45,9 @@ function App() {
 
 
   return (
-    <div className="App">
+    <ContentWrapper>
       <NavBar/>
+      <MainContentWrapper>
       <Switch>
         <Route path ="/library">
           <Library songs={songs} toggleFavoritedSong={toggleFavoritedSong}/>
@@ -60,8 +62,10 @@ function App() {
           <Home songs={songs} toggleFavoritedSong={toggleFavoritedSong}/>
         </Route>
       </Switch>
-    </div>
+      </MainContentWrapper>
+    </ContentWrapper>
   );
 }
 
 export default App;
+
