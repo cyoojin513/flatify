@@ -1,4 +1,3 @@
-// import '../';
 import React, {useEffect, useState} from 'react';
 import {Route, Switch } from 'react-router-dom';
 import Home from './Home';
@@ -12,13 +11,11 @@ import GlobalStyles from '../GlobalStyles';
 function App() {
   const [songs, setSongs] = useState([])
 
-
   useEffect(()=> {
     fetch(`http://localhost:3000/songs`)
       .then(r => r.json())
       .then(jsonSongs => setSongs(jsonSongs))
   }, [])
-
 
   function toggleFavoritedSong(songId, favoriteStatus) {
     fetch(`http://localhost:3000/songs/${songId}`, {
@@ -44,7 +41,6 @@ function App() {
     setSongs((songs) => [...songs, songObj])
   }
 
-
   return (
     <PageWrapper>
     <GlobalStyles/>
@@ -52,16 +48,27 @@ function App() {
       <MainContentWrapper>
       <Switch>
         <Route path ="/library">
-          <Library songs={songs} toggleFavoritedSong={toggleFavoritedSong}/>
+          <Library 
+            songs={songs} 
+            toggleFavoritedSong={toggleFavoritedSong}
+          />
         </Route>
         <Route path ="/search">
-          <Search songs={songs} toggleFavoritedSong={toggleFavoritedSong}/>
+          <Search 
+            songs={songs} 
+            toggleFavoritedSong={toggleFavoritedSong}
+          />
         </Route>
         <Route path ="/for-artists">
-          <ForArtists updateSongsWithUserUpload={updateSongsWithUserUpload}/>
+          <ForArtists 
+            updateSongsWithUserUpload={updateSongsWithUserUpload}
+          />
         </Route>
         <Route exact path ="/">
-          <Home songs={songs} toggleFavoritedSong={toggleFavoritedSong}/>
+          <Home 
+            songs={songs} 
+            toggleFavoritedSong={toggleFavoritedSong}
+          />
         </Route>
       </Switch>
       </MainContentWrapper>
