@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import SearchCard from './SearchCard'
 import { ContentGrid } from './Styles/Grids.style'
 import SearchHeader from './Styles/Search.style'
-import Input from './Styles/Input.style'
+import SearchInput from './Styles/Input.style'
 import { RiSearchLine } from 'react-icons/ri'
 
 
@@ -25,7 +25,7 @@ function Search({songs, toggleFavoritedSong}) {
       <SearchHeader>
           <div className='holder'>
             <RiSearchLine color="black"/>
-            <Input placeholder="Artists, songs, genre, or albums" onChange={handleChange}></Input>
+            <SearchInput placeholder="Artists, songs, genre, or albums" onChange={handleChange}></SearchInput>
           </div>
           <h2>Search...</h2>
       </SearchHeader>

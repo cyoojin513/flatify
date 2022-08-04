@@ -1,4 +1,6 @@
 import React, {useState} from 'react'
+import { FormSubmit, FormInput } from './Styles/Input.style'
+import { FormGrid } from './Styles/Grids.style'
 
 function ForArtists({updateSongsWithUserUpload}) {
   
@@ -40,28 +42,43 @@ function ForArtists({updateSongsWithUserUpload}) {
 
   return (
     <div>
-        ForArtists
-        <form className='upload-tool' onSubmit={handleSubmit}>
-            <label htmlFor="artist">Artist Name:
-                <input onChange={handleChange} name="artist" placeholder="Name of Artist"></input>
-            </label>
-            <label htmlFor="songName">Song Name:
-                <input onChange={handleChange} name="songName" placeholder="Name of Song"></input>
-            </label>
-            <label htmlFor="album">Album Name:
-                <input onChange={handleChange} name="album" placeholder="Name of Album"></input>
-            </label>
-            <label htmlFor="genre">Genre:
-                <input onChange={handleChange} name="genre" placeholder="Genre"></input>
-            </label>
-            <label htmlFor="image">Album Cover:
-                <input onChange={handleChange} name="image" placeholder="URL of image"></input>
-            </label>
-            <label htmlFor="releaseDate">Date Released:
-                <input onChange={handleChange} name="releaseDate" placeholder="YYYY-MM-DD"></input>
-            </label>
-            <input type="submit"></input>
-        </form>
+        <h1>Flatify For Artists</h1>
+        <div>
+          <h3>Artist Music Upload</h3>
+          
+          <form className='upload-tool' onSubmit={handleSubmit}>
+            <FormGrid>
+              <label htmlFor="artist">
+                  <h2>Artist Name:</h2>
+                  <FormInput onChange={handleChange} name="artist" placeholder="Name of Artist"></FormInput>
+              </label>
+              <label htmlFor="songName">
+                  <h2>Song Name:</h2>
+                  <FormInput onChange={handleChange} name="songName" placeholder="Name of Song"></FormInput>
+              </label>
+              <label htmlFor="album">
+                  <h2>Album Name:</h2>
+                  <FormInput onChange={handleChange} name="album" placeholder="Name of Album"></FormInput>
+              </label>
+              <label htmlFor="genre">
+                  <h2>Genre:</h2>
+                  <FormInput onChange={handleChange} name="genre" placeholder="Genre"></FormInput>
+              </label>
+              <label htmlFor="image">
+                  <h2>Album Cover:</h2>
+                  <FormInput onChange={handleChange} name="image" placeholder="URL of image"></FormInput>
+              </label>
+              <label htmlFor="releaseDate">
+                  <h2>Date Released:</h2>
+                  <FormInput onChange={handleChange} name="releaseDate" placeholder="YYYY-MM-DD"></FormInput>
+              </label>
+            </FormGrid>
+              <label>
+                <h2></h2>
+                <FormSubmit type="submit" value="▶"></FormSubmit>
+              </label>
+          </form>
+        </div>
     </div>
   )
 }

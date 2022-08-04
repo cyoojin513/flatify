@@ -20,5 +20,11 @@ const ContentGrid = styled.div`
   gap: 10px;
 `
 
-export {MainContentWrapper, ContentGrid}
+const FormGrid = styled.div`
+  display: grid;
+  grid-template-columns: 400px 400px;
+  grid-template-rows: 100px 100px 100px;
+`
+
+export {MainContentWrapper, ContentGrid, FormGrid}
 export default PageWrapper;
