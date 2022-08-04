@@ -9,7 +9,8 @@ const GlobalStyles = createGlobalStyle`
   }
 
   * {
-    font-family: sans-serif;
+    font-family: 'Gotham Pro', sans-serif;;
+    /* font-weight: 500; */
   }
 
   h1, h2 {
@@ -17,7 +18,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   h1 {
-    font-size: 4.5em;
+    font-size: 4em;
   }
 
   h2.home-h2 {

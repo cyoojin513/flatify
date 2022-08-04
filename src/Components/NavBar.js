@@ -11,7 +11,7 @@ import FlatifyLogo from '../FlatifyLogo.png'
 function NavBar() {
   return (
     <NavWrapper>
-      <Logo>
+      <Logo as={NavLink} exact to='/'>
         <img src={FlatifyLogo} alt='logo'/>
       </Logo>
         <Navigation as={NavLink} exact to='/'>

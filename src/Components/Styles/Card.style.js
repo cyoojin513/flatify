@@ -25,11 +25,12 @@ const Card = styled.div`
     margin: auto;
     color: white;
     padding-bottom: 10px;
+    font-weight: bold;
   }
 
   h4 {
     font-size: 80%;
-    font-weight: lighter;
+    /* font-weight: lighter; */
     margin: auto;
     color: #acabac;
   }

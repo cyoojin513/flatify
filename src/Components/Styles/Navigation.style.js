@@ -3,7 +3,8 @@ import styled from "styled-components";
 const Navigation = styled.li`
   border-radius: 5px;
   font-size: 18px;
-  font-family: 'Source Sans Pro', sans-serif;
+  /* font-family: 'Gotham', sans-serif; */
+  font-weight: 800;
   padding: 6px 25px;
   border: none;
   cursor: pointer;
