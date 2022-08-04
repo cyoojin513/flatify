@@ -23,6 +23,14 @@ const GlobalStyles = createGlobalStyle`
   h2.home-h2 {
     padding: 25px 0px 0px;
   }
+
+  h3 {
+    font-weight: lighter;
+    color: #acabac;
+    margin-top: -20px;
+    margin-bottom: 30px;
+  }
+  
 `
 
 export default GlobalStyles;
