@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
-import Input from './Styles/Input.style'
-
+import { FormSubmit, FormInput } from './Styles/Input.style'
+import { FormGrid } from './Styles/Grids.style'
 
 function ForArtists({updateSongsWithUserUpload}) {
   
@@ -45,32 +45,38 @@ function ForArtists({updateSongsWithUserUpload}) {
         <h1>Flatify For Artists</h1>
         <div>
           <h3>Artist Music Upload</h3>
+          
           <form className='upload-tool' onSubmit={handleSubmit}>
+            <FormGrid>
               <label htmlFor="artist">
                   <h2>Artist Name:</h2>
-                  <Input onChange={handleChange} name="artist" placeholder="Name of Artist"></Input>
+                  <FormInput onChange={handleChange} name="artist" placeholder="Name of Artist"></FormInput>
               </label>
               <label htmlFor="songName">
                   <h2>Song Name:</h2>
-                  <Input onChange={handleChange} name="songName" placeholder="Name of Song"></Input>
+                  <FormInput onChange={handleChange} name="songName" placeholder="Name of Song"></FormInput>
               </label>
               <label htmlFor="album">
                   <h2>Album Name:</h2>
-                  <Input onChange={handleChange} name="album" placeholder="Name of Album"></Input>
+                  <FormInput onChange={handleChange} name="album" placeholder="Name of Album"></FormInput>
               </label>
               <label htmlFor="genre">
                   <h2>Genre:</h2>
-                  <Input onChange={handleChange} name="genre" placeholder="Genre"></Input>
+                  <FormInput onChange={handleChange} name="genre" placeholder="Genre"></FormInput>
               </label>
               <label htmlFor="image">
                   <h2>Album Cover:</h2>
-                  <Input onChange={handleChange} name="image" placeholder="URL of image"></Input>
+                  <FormInput onChange={handleChange} name="image" placeholder="URL of image"></FormInput>
               </label>
               <label htmlFor="releaseDate">
                   <h2>Date Released:</h2>
-                  <Input onChange={handleChange} name="releaseDate" placeholder="YYYY-MM-DD"></Input>
+                  <FormInput onChange={handleChange} name="releaseDate" placeholder="YYYY-MM-DD"></FormInput>
               </label>
-              <input className='submit' type="submit" value="Upload to Flatify"></input>
+            </FormGrid>
+              <label>
+                <h2></h2>
+                <FormSubmit type="submit" value="▶"></FormSubmit>
+              </label>
           </form>
         </div>
     </div>

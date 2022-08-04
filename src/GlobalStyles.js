@@ -31,6 +31,10 @@ const GlobalStyles = createGlobalStyle`
     margin-bottom: 30px;
   }
   
+  input[type=submit] {
+    text-align: center;
+  }
+
 `
 
 export default GlobalStyles;
