@@ -15,9 +15,10 @@ const MainContentWrapper = styled.main`
 
 const ContentGrid = styled.div`
   display: grid;
-  grid-template-columns: repeat(5, 220px);
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-rows: 1fr;
   gap: 10px;
+
 `
 
 const FormGrid = styled.div`

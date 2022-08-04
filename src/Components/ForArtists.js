@@ -45,37 +45,60 @@ function ForArtists({updateSongsWithUserUpload}) {
         <h1>Flatify For Artists</h1>
         <div>
           <h3>Artist Music Upload</h3>
-          
           <form className='upload-tool' onSubmit={handleSubmit}>
             <FormGrid>
               <label htmlFor="artist">
                   <h2>Artist Name:</h2>
-                  <FormInput onChange={handleChange} name="artist" placeholder="Name of Artist"></FormInput>
+                  <FormInput 
+                    onChange={handleChange} 
+                    name="artist" 
+                    placeholder="Name of Artist"
+                  />
               </label>
               <label htmlFor="songName">
                   <h2>Song Name:</h2>
-                  <FormInput onChange={handleChange} name="songName" placeholder="Name of Song"></FormInput>
+                  <FormInput 
+                    onChange={handleChange} 
+                    name="songName" 
+                    placeholder="Name of Song"
+                  />
               </label>
               <label htmlFor="album">
                   <h2>Album Name:</h2>
-                  <FormInput onChange={handleChange} name="album" placeholder="Name of Album"></FormInput>
+                  <FormInput 
+                    onChange={handleChange} 
+                    name="album" 
+                    placeholder="Name of Album"
+                  />
               </label>
               <label htmlFor="genre">
                   <h2>Genre:</h2>
-                  <FormInput onChange={handleChange} name="genre" placeholder="Genre"></FormInput>
+                  <FormInput 
+                    onChange={handleChange} 
+                    name="genre" 
+                    placeholder="Genre"
+                    />
               </label>
               <label htmlFor="image">
                   <h2>Album Cover:</h2>
-                  <FormInput onChange={handleChange} name="image" placeholder="URL of image"></FormInput>
+                  <FormInput 
+                    onChange={handleChange} 
+                    name="image" 
+                    placeholder="URL of image"
+                  />
               </label>
               <label htmlFor="releaseDate">
                   <h2>Date Released:</h2>
-                  <FormInput onChange={handleChange} name="releaseDate" placeholder="YYYY-MM-DD"></FormInput>
+                  <FormInput 
+                    onChange={handleChange} 
+                    name="releaseDate" 
+                    placeholder="YYYY-MM-DD"
+                  />
               </label>
             </FormGrid>
               <label>
-                <h2></h2>
-                <FormSubmit type="submit" value="▶"></FormSubmit>
+                <br/>
+                <FormSubmit type="submit" value="▶"/>
               </label>
           </form>
         </div>

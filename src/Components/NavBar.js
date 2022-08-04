@@ -1,10 +1,9 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom'
 import {Navigation, NavWrapper, Logo} from './Styles/Navigation.style'
-// import {RiSpotifyFill} from 'react-icons/ri'
-import {MdHome, MdOutlineHome} from 'react-icons/md'
+import {MdHome} from 'react-icons/md'
 import { RiSearchLine } from 'react-icons/ri'
-import {HiMusicNote, HiOutlineMusicNote} from 'react-icons/hi'
+import {HiMusicNote} from 'react-icons/hi'
 import {BiLibrary} from 'react-icons/bi'
 import FlatifyLogo from '../FlatifyLogo.png'
 

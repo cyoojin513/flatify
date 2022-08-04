@@ -3,7 +3,6 @@ import styled from "styled-components";
 const Card = styled.div`
   width: 92%;
   max-width: 200px;
-  /* box-shadow: 0 4px 8px 0 rgb(0 0 0 / 50%); */
   transition: 0.3s;
   border-radius: 10px;
   background-color: #191818;
@@ -30,7 +29,7 @@ const Card = styled.div`
 
   h4 {
     font-size: 80%;
-    /* font-weight: lighter; */
+    padding: 2px;
     margin: auto;
     color: #acabac;
   }
@@ -42,7 +41,6 @@ const Card = styled.div`
   }
 
   &:hover {
-    /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); */
     background-color: #272828;
   }
 `

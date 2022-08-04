@@ -25,7 +25,10 @@ function Search({songs, toggleFavoritedSong}) {
       <SearchHeader>
           <div className='holder'>
             <RiSearchLine color="black"/>
-            <SearchInput placeholder="Artists, songs, genre, or albums" onChange={handleChange}></SearchInput>
+            <SearchInput 
+              placeholder="Artists, songs, genre, or albums" 
+              onChange={handleChange}
+            />
           </div>
           <h2>Search...</h2>
       </SearchHeader>

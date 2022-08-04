@@ -1,17 +1,14 @@
 import React from 'react'
 import HomeCard from './HomeCard'
 import { ContentGrid } from './Styles/Grids.style'
+import Scrollbox from './Styles/Scrollbox.style'
 
 function Home({songs, toggleFavoritedSong}) {
-
   const newReleases = [...songs].sort((a, b) =>Date.parse(b.releaseDate) - Date.parse(a.releaseDate))
-  const firstFifteenNewReleases = newReleases.slice(0, 15)
 
   const popularReleases = [...songs].sort((a, b) => b.plays - a.plays)
-  const firstFifteenPopular = popularReleases.slice(0, 15)
 
   let currentHours = new Date().getHours()
-
   const generateGreeting = () => {
     if (currentHours >= 5 && currentHours < 12) {
       return <h1>Good morning</h1>
@@ -21,16 +18,24 @@ function Home({songs, toggleFavoritedSong}) {
   }
 
   return (
-    <div className="home">
+    <div>
       {generateGreeting()}
       <h2 className='home-h2'>New Releases</h2>
-      <ContentGrid>
-          {firstFifteenNewReleases.map(song => <HomeCard key={song.id} song={song} toggleFavoritedSong={toggleFavoritedSong}/> )}
-      </ContentGrid>
+      <Scrollbox>
+        <ContentGrid>
+            {newReleases.map(song => <HomeCard key={song.id} song={song} toggleFavoritedSong={toggleFavoritedSong}/> )}
+        </ContentGrid>
+      </Scrollbox>
       <h2 className='home-h2'>Popular Releases</h2>
-      <ContentGrid>
-          {firstFifteenPopular.map(song => <HomeCard key={song.id} song={song} toggleFavoritedSong={toggleFavoritedSong}/>)}
-      </ContentGrid>
+      <Scrollbox>
+        <ContentGrid>
+            {popularReleases.map(song => <HomeCard 
+              key={song.id} 
+              song={song} 
+              toggleFavoritedSong={toggleFavoritedSong}
+            />)}
+        </ContentGrid>
+      </Scrollbox>
     </div>
   )
 }

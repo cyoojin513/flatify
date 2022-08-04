@@ -3,7 +3,6 @@ import styled from "styled-components";
 const Navigation = styled.li`
   border-radius: 5px;
   font-size: 18px;
-  /* font-family: 'Gotham', sans-serif; */
   font-weight: 800;
   padding: 6px 25px;
   border: none;
@@ -34,12 +33,6 @@ const NavWrapper = styled.div`
   grid-template-columns: 200px;
   grid-template-rows: 120px repeat(4, 50px);
 
-  /* .logo svg {
-    width: 50px;
-    height: auto;
-    color: white;
-  } */
-
   a {
     text-decoration: none;
   }
@@ -48,7 +41,6 @@ const NavWrapper = styled.div`
 const Logo = styled.div`
   display: flex;
   align-items: center;
-  /* justify-content: left; */
   padding-left: 25px;
 
   img {
@@ -58,7 +50,4 @@ const Logo = styled.div`
   }
 `
 
-
-export { Navigation };
-export { NavWrapper };
-export { Logo }
+export { Navigation, NavWrapper, Logo };

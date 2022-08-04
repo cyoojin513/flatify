@@ -6,10 +6,6 @@ const SearchInput = styled.input`
     border-radius: 40px;
     border: 0px;
     padding: 2px 50px;
-
-    
-    
-    
 `
 
 const FormInput = styled.input`
@@ -18,7 +14,6 @@ const FormInput = styled.input`
     border-radius: 40px;
     border: 0px;
     padding: 2px 25px;
-    
 `
 
 const FormSubmit = styled.input`
@@ -40,8 +35,6 @@ const FormSubmit = styled.input`
     &:hover {
         transform: scale(1.05);
     }
-
-    
 `
 export {FormInput, FormSubmit}
 export default SearchInput

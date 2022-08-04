@@ -9,8 +9,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   * {
-    font-family: 'Gotham Pro', sans-serif;;
-    /* font-weight: 500; */
+    font-family: 'Gotham Pro', sans-serif;
   }
 
   h1, h2 {
@@ -31,11 +30,7 @@ const GlobalStyles = createGlobalStyle`
     margin-top: -20px;
     margin-bottom: 30px;
   }
-  
-  input[type=submit] {
-    text-align: center;
-  }
-
 `
 
 export default GlobalStyles;
+
