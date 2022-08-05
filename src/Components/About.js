@@ -11,7 +11,7 @@ export default function About() {
         <h1 className='aboutHeader'>About</h1>
         <AboutGrid>
             <AboutCard>
-                <h2>Allie Brubaker</h2>
+                <h2>Alie Brubaker</h2>
                 <img src={Alie} alt="React-Dev-1"/>
                 <p>
                     <a href="https://www.linkedin.com/in/alie-brubaker/">Linkedin</a>
