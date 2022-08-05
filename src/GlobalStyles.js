@@ -30,6 +30,23 @@ const GlobalStyles = createGlobalStyle`
     margin-top: -20px;
     margin-bottom: 30px;
   }
+
+  h1.aboutHeader {
+    text-align: center;
+    margin-left: -100px;
+  }
+
+  h2.aboutPage {
+    text-align: center;
+    margin-left: -100px;
+    margin-top: 100px;
+  }
+
+  h2.aboutText {
+    text-align: center;
+    margin-left: -100px;
+  }
+
 `
 
 export default GlobalStyles;

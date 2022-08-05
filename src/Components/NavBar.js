@@ -5,6 +5,7 @@ import {MdHome} from 'react-icons/md'
 import { RiSearchLine } from 'react-icons/ri'
 import {HiMusicNote} from 'react-icons/hi'
 import {BiLibrary} from 'react-icons/bi'
+import {AiOutlineTeam} from 'react-icons/ai'
 import FlatifyLogo from '../FlatifyLogo.png'
 
 function NavBar() {
@@ -24,6 +25,9 @@ function NavBar() {
         </Navigation>
         <Navigation as={NavLink} exact to='/for-artists'>
           <HiMusicNote/> For Artists
+        </Navigation>
+        <Navigation as={NavLink} exact to='about'>
+          <AiOutlineTeam/> About
         </Navigation>
     </NavWrapper>
   )

@@ -31,7 +31,7 @@ const NavWrapper = styled.div`
   background-color: black;
   display: grid;
   grid-template-columns: 200px;
-  grid-template-rows: 120px repeat(4, 50px);
+  grid-template-rows: 120px repeat(5, 50px);
 
   a {
     text-decoration: none;
