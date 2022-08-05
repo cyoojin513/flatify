@@ -109,6 +109,116 @@
       "image": "https://images.genius.com/667848674180a6ef4a8d9ebc85b29acc.1000x1000x1.jpg",
       "releaseDate": "2018-03-15",
       "favorited": false
+    },
+    {
+      "id": 11,
+      "artist": "St. Vincent",
+      "songName": "Prince Johnny",
+      "album": "St. Vincent",
+      "genre": "Indie Pop",
+      "plays": 424013,
+      "image": "https://i.pinimg.com/originals/5c/49/cb/5c49cbbc522a68fac27d6f5f330da4cb.jpg",
+      "releaseDate": "2014-01-06",
+      "favorited": true
+    },
+    {
+      "id": 12,
+      "artist": "Beach House",
+      "songName": "Troublemaker",
+      "album": "Bloom",
+      "genre": "Dream Pop",
+      "plays": 784387,
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a2/Beach_House_-_Bloom.png",
+      "releaseDate": "2012-05-15",
+      "favorited": false
+    },
+    {
+      "id": 13,
+      "artist": "Earl Sweatshirt",
+      "songName": "Tabula Rasa",
+      "album": "SICK!",
+      "genre": "Rap",
+      "plays": 49622,
+      "image": "https://images.genius.com/13dedac6fa8092121c8a30256b0e4cc9.300x300x1.png",
+      "releaseDate": "2022-01-14",
+      "favorited": false
+    },
+    {
+      "id": 14,
+      "artist": "billy woods",
+      "songName": "Christine",
+      "album": "Aethiopes",
+      "genre": "Rap",
+      "plays": 353094,
+      "image": "https://media.pitchfork.com/photos/622eb47edd123e9e0e460c96/1:1/w_450%2Cc_limit/AETHIOPES_COVER_1200.jpg",
+      "releaseDate": "2022-04-08",
+      "favorited": true
+    },
+    {
+      "id": 15,
+      "artist": "Armand Hammer",
+      "songName": "Black Garlic",
+      "album": "Paraffin",
+      "genre": "Rap",
+      "plays": 312762,
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/73/Paraffin_-_Armand_Hammer.jpg",
+      "releaseDate": "2018-08-30",
+      "favorited": false
+    },
+    {
+      "id": 16,
+      "artist": "Benny Sings",
+      "songName": "Big Brown Eyes",
+      "album": "Art",
+      "genre": "Indie Pop",
+      "plays": 365836,
+      "image": "https://i.scdn.co/image/ab67616d0000b2736a0efc0bb7ce30139620144c",
+      "releaseDate": "2011-05-27",
+      "favorited": true
+    },
+    {
+      "id": 17,
+      "artist": "Sun Kil Moon",
+      "songName": "I Love My Dad",
+      "album": "Benji",
+      "genre": "Folk",
+      "plays": 570284,
+      "image": "https://media.pitchfork.com/photos/5929a508c0084474cd0c061a/1:1/w_600/8512d235.jpg",
+      "releaseDate": "2014-08-19",
+      "favorited": true
+    },
+    {
+      "id": 18,
+      "artist": "Arcade Fire",
+      "songName": "We Exist",
+      "album": "Reflektor",
+      "genre": "Indie Rock",
+      "plays": 433424,
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/57/ArcadeFireReflektor.jpg",
+      "releaseDate": "2013-10-28",
+      "favorited": false
+    },
+    {
+      "id": 19,
+      "artist": "LCD Soundsystem",
+      "songName": "Dance Yrself Clean",
+      "album": "This Is Happening",
+      "genre": "Dance",
+      "plays": 804375,
+      "image": "https://media.pitchfork.com/photos/5929a9caea9e61561daa5acd/1:1/w_600/0024dd9d.jpeg",
+      "releaseDate": "2010-05-17",
+      "favorited": false
+    },
+    {
+      "id": 20,
+      "artist": "Fleet Foxes",
+      "songName": "Monetezuma",
+      "album": "Helplessness Blues",
+      "genre": "Folk",
+      "plays": 10967,
+      "image": "https://media.pitchfork.com/photos/5929aecfb1335d7bf1699e38/1:1/w_320,c_limit/0cb1ffa3.jpeg",
+      "releaseDate": "2011-05-03",
+      "favorited": false
     }
   ]
 }
