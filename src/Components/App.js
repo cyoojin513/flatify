@@ -45,7 +45,7 @@ function App() {
 
   return (
     <PageWrapper>
-    <GlobalStyles/>
+      <GlobalStyles/> 
       <NavBar/>
       <MainContentWrapper>
       <Switch>
