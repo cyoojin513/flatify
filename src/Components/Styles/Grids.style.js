@@ -30,7 +30,7 @@ const AboutGrid = styled.div`
   display: grid;
   margin-top: 100px;
   margin-left: 100px;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(3, 300px);
   grid-template-rows: 1fr;
   gap: 10px;
 
