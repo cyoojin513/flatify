@@ -3,6 +3,7 @@ import { AboutGrid } from './Styles/Grids.style'
 import { AboutCard } from './Styles/Cards.style'
 import stockavatar from '../Images/stockavatar.jpeg'
 import linkedinVH from '../Images/linkedinVH.jpeg'
+import linkedinYC from '../Images/linkedinYC.jpg'
 
 export default function About() {
   return (
@@ -31,7 +32,7 @@ export default function About() {
             </AboutCard>
             <AboutCard>
                 <h2>Yoojin Cheong</h2>
-                <img src={stockavatar} alt="React-Dev-3"/>
+                <img src={linkedinYC} alt="React-Dev-3"/>
                 <p>
                     <a href="https://www.linkedin.com/in/yoojin-cheong/">Linkedin</a>
                 </p>
