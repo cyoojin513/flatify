@@ -12,16 +12,19 @@ export default function About() {
                 <h2>Allie Brubaker</h2>
                 <img src={stockavatar} alt="React-Dev-1"/>
                 <a href="https://www.linkedin.com/in/alie-brubaker/">Linkedin</a>
+                <a href="https://github.com/victorhaynes">GitHub</a> 
             </AboutCard>
             <AboutCard>
                 <h2>Victor Haynes</h2>
                 <img src={stockavatar} alt="React-Dev-2"/>
-                <a href="https://www.linkedin.com/in/victor-haynes/">Linkedin</a>          
+                <a href="https://www.linkedin.com/in/victor-haynes/">Linkedin</a>  
+                <a href="https://github.com/victorhaynes">GitHub</a>        
             </AboutCard>
             <AboutCard>
                 <h2>Yoojin Cheong</h2>
                 <img src={stockavatar} alt="React-Dev-3"/>
                 <a href="https://www.linkedin.com/in/yoojin-cheong/">Linkedin</a>
+                <a href="https://github.com/victorhaynes">GitHub</a>
             </AboutCard>
         </AboutGrid>
         <h2 className='aboutPage'>A React.js App</h2>

@@ -65,14 +65,17 @@ const AboutCard = styled.div`
     max-width: 170px;
     height: auto;
     padding: 15px;
+    margin-bottom: -10px;
   }
 
   a {
+    display: block;
     padding: 2px;
     color: #acabac;
     text-decoration: none;
-    margin-left: 65px;
-    padding-top: 10px;
+    margin-left: 65px; 
+    padding-top: 7px;
+    
   }
   
 
