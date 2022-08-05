@@ -11,7 +11,8 @@ function ForArtists({updateSongsWithUserUpload}) {
     genre: "",
     image: "",
     releaseDate: "",
-    favorited: false
+    favorited: false,
+    plays: 0
   })
 
   function handleChange(event){
@@ -35,7 +36,8 @@ function ForArtists({updateSongsWithUserUpload}) {
       genre: "",
       image: "",
       releaseDate: "",
-      favorited: false
+      favorited: false,
+      plays: 0
     })
     event.target.reset()
   }

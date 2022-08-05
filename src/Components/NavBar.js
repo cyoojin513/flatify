@@ -6,7 +6,7 @@ import { RiSearchLine } from 'react-icons/ri'
 import {HiMusicNote} from 'react-icons/hi'
 import {BiLibrary} from 'react-icons/bi'
 import {AiOutlineTeam} from 'react-icons/ai'
-import FlatifyLogo from '../FlatifyLogo.png'
+import FlatifyLogo from '../Images/FlatifyLogo.png'
 
 function NavBar() {
   return (

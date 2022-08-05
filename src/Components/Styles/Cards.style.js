@@ -70,12 +70,14 @@ const AboutCard = styled.div`
 
   a {
     display: block;
-    padding: 2px;
     color: #acabac;
     text-decoration: none;
-    margin-left: 65px; 
-    padding-top: 7px;
-    
+  }
+
+  p {
+    text-align: center;
+    margin: 0;
+    padding: 5px;
   }
   
 
