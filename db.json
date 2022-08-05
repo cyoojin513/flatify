@@ -2,6 +2,116 @@
   "songs": [
     {
       "id": 1,
+      "artist": "Herb Ellis, Remo Palmier",
+      "songName": "Groove Merchant",
+      "album": "Windflower",
+      "genre": "jazz",
+      "plays": 547,
+      "image": "https://e.snmc.io/i/1200/s/3ec916e7ce63e2e70fe127b71c43eeef/3705545",
+      "releaseDate": "1978-01-03",
+      "favorited": false
+    },
+    {
+      "id": 2,
+      "artist": "Chet Baker",
+      "songName": "Skylark",
+      "album": "Late night jazz",
+      "genre": "jazz",
+      "plays": 6533,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51o56ppQEKL._SY445_SX342_QL70_ML2_.jpg",
+      "releaseDate": "2022-01-14",
+      "favorited": false
+    },
+    {
+      "id": 3,
+      "artist": "Acoustic Cafe",
+      "songName": "Last Carnival",
+      "album": "Last Carnival",
+      "genre": "new age",
+      "plays": 184,
+      "image": "https://i.scdn.co/image/ab67616d0000b2731bb822af31f7079f3e8aecd8",
+      "releaseDate": "2015-09-24",
+      "favorited": false
+    },
+    {
+      "id": 4,
+      "artist": "Sylo Nozra",
+      "songName": "FOMO",
+      "album": "Sylo Songs",
+      "genre": "R&B/soul",
+      "plays": 34,
+      "image": "https://m.media-amazon.com/images/I/916JFFalmCL._SS500_.jpg",
+      "releaseDate": "2020-01-21",
+      "favorited": false
+    },
+    {
+      "id": 5,
+      "artist": "Young Cocoa",
+      "songName": "Seasons",
+      "album": "Seasons",
+      "genre": "R&B/soul",
+      "plays": 21,
+      "image": "https://m.media-amazon.com/images/I/91NW4leKBlL._SS500_.jpg",
+      "releaseDate": "2021-10-20",
+      "favorited": false
+    },
+    {
+      "id": 6,
+      "artist": "Allie X",
+      "songName": "Devil I Know",
+      "album": "Cape God",
+      "genre": "pop",
+      "plays": 21,
+      "image": "https://media.pitchfork.com/photos/5e500f480e27b00008f7b487/1:1/w_600/Cape%20God_Allie%20X.jpg",
+      "releaseDate": "2020-02-21",
+      "favorited": false
+    },
+    {
+      "id": 7,
+      "artist": "Bren Joy",
+      "songName": "Freezing",
+      "album": "Twenties",
+      "genre": "R&B/soul",
+      "plays": 56,
+      "image": "https://i.scdn.co/image/ab67616d00001e02c08bbd35a882a77b385974b6",
+      "releaseDate": "2019-05-17",
+      "favorited": false
+    },
+    {
+      "id": 8,
+      "artist": "GOLDA",
+      "songName": "Good Lovin' - Rework",
+      "album": "The GOLDA Complex: Remixes",
+      "genre": "pop",
+      "plays": 712,
+      "image": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/35/b2/05/35b20597-d1db-a57b-6e0d-2fcbc9e06eaf/425132264777.jpg/600x600bf-60.jpg",
+      "releaseDate": "2019-11-27",
+      "favorited": false
+    },
+    {
+      "id": 9,
+      "artist": "Jeff Bernat, Jesse Barrera, and Johnny Stimson",
+      "songName": "Casual",
+      "album": "Casual",
+      "genre": "R&B/soul",
+      "plays": 43,
+      "image": "https://i.scdn.co/image/ab67616d0000b27397a69803ebb99f29281267ac",
+      "releaseDate": "2020-05-22",
+      "favorited": false
+    },
+    {
+      "id": 10,
+      "artist": "ADOY",
+      "songName": "Wonder",
+      "album": "LOVE",
+      "genre": "R&B/soul",
+      "plays": 129,
+      "image": "https://images.genius.com/667848674180a6ef4a8d9ebc85b29acc.1000x1000x1.jpg",
+      "releaseDate": "2018-03-15",
+      "favorited": false
+    },
+    {
+      "id": 11,
       "artist": "St. Vincent",
       "songName": "Prince Johnny",
       "album": "St. Vincent",
@@ -12,7 +122,7 @@
       "favorited": true
     },
     {
-      "id": 2,
+      "id": 12,
       "artist": "Beach House",
       "songName": "Troublemaker",
       "album": "Bloom",
@@ -23,7 +133,7 @@
       "favorited": false
     },
     {
-      "id": 3,
+      "id": 13,
       "artist": "Earl Sweatshirt",
       "songName": "Tabula Rasa",
       "album": "SICK!",
@@ -34,7 +144,7 @@
       "favorited": false
     },
     {
-      "id": 4,
+      "id": 14,
       "artist": "billy woods",
       "songName": "Christine",
       "album": "Aethiopes",
@@ -45,7 +155,7 @@
       "favorited": true
     },
     {
-      "id": 5,
+      "id": 15,
       "artist": "Armand Hammer",
       "songName": "Black Garlic",
       "album": "Paraffin",
@@ -56,7 +166,7 @@
       "favorited": false
     },
     {
-      "id": 6,
+      "id": 16,
       "artist": "Benny Sings",
       "songName": "Big Brown Eyes",
       "album": "Art",
@@ -67,7 +177,7 @@
       "favorited": true
     },
     {
-      "id": 7,
+      "id": 17,
       "artist": "Sun Kil Moon",
       "songName": "I Love My Dad",
       "album": "Benji",
@@ -78,7 +188,7 @@
       "favorited": true
     },
     {
-      "id": 8,
+      "id": 18,
       "artist": "Arcade Fire",
       "songName": "We Exist",
       "album": "Reflektor",
@@ -89,7 +199,7 @@
       "favorited": false
     },
     {
-      "id": 9,
+      "id": 19,
       "artist": "LCD Soundsystem",
       "songName": "Dance Yrself Clean",
       "album": "This Is Happening",
@@ -100,7 +210,7 @@
       "favorited": false
     },
     {
-      "id": 10,
+      "id": 20,
       "artist": "Fleet Foxes",
       "songName": "Monetezuma",
       "album": "Helplessness Blues",
@@ -108,226 +218,6 @@
       "plays": 10967,
       "image": "https://media.pitchfork.com/photos/5929aecfb1335d7bf1699e38/1:1/w_320,c_limit/0cb1ffa3.jpeg",
       "releaseDate": "2011-05-03",
-      "favorited": false
-    },
-    {
-      "id": 11,
-      "artist": "Victor",
-      "songName": "Guitar Noise",
-      "album": "Gutter Trash",
-      "genre": "hardcore",
-      "plays": 1200,
-      "image": "https://cdn.vox-cdn.com/thumbor/0vb1MO7i4hU_aB9BjZzt-ibm5yY=/0x18:550x385/1400x1400/filters:focal(0x18:550x385):format(jpeg)/cdn.vox-cdn.com/uploads/chorus_image/image/31968043/galley12.0.jpg",
-      "releaseDate": "1986-05-21",
-      "favorited": false
-    },
-    {
-      "id": 12,
-      "artist": "Yoojin",
-      "songName": "I don't know",
-      "album": "Still Don't Know",
-      "genre": "hip hop",
-      "plays": 650,
-      "image": "https://media.gq.com/photos/58347f75c764ae804c6d1876/1:1/w_1831,h_1831,c_limit/cam-ron-lede.jpg",
-      "releaseDate": "2000-06-28",
-      "favorited": false
-    },
-    {
-      "id": 13,
-      "artist": "Alie",
-      "songName": "Groove Thang",
-      "album": "1999 Finest Disco",
-      "genre": "disco",
-      "plays": 2,
-      "image": "https://images.squarespace-cdn.com/content/v1/604c18096c8eba3fe76e1da5/1615705979983-4ED97SZ63J90WHQ1O5M0/feeling-groovy.jpg?format=1000w",
-      "releaseDate": "1999-01-03",
-      "favorited": false
-    },
-    {
-      "id": 14,
-      "artist": "Victor",
-      "songName": "Guitar Noise",
-      "album": "Gutter Trash",
-      "genre": "hardcore",
-      "plays": 1200,
-      "image": "https://cdn.vox-cdn.com/thumbor/0vb1MO7i4hU_aB9BjZzt-ibm5yY=/0x18:550x385/1400x1400/filters:focal(0x18:550x385):format(jpeg)/cdn.vox-cdn.com/uploads/chorus_image/image/31968043/galley12.0.jpg",
-      "releaseDate": "1986-05-21",
-      "favorited": false
-    },
-    {
-      "id": 15,
-      "artist": "Yoojin",
-      "songName": "I don't know",
-      "album": "Still Don't Know",
-      "genre": "hip hop",
-      "plays": 650,
-      "image": "https://media.gq.com/photos/58347f75c764ae804c6d1876/1:1/w_1831,h_1831,c_limit/cam-ron-lede.jpg",
-      "releaseDate": "2000-06-28",
-      "favorited": false
-    },
-    {
-      "id": 16,
-      "artist": "Alie",
-      "songName": "Groove Thang",
-      "album": "1999 Finest Disco",
-      "genre": "disco",
-      "plays": 2,
-      "image": "https://images.squarespace-cdn.com/content/v1/604c18096c8eba3fe76e1da5/1615705979983-4ED97SZ63J90WHQ1O5M0/feeling-groovy.jpg?format=1000w",
-      "releaseDate": "1999-01-03",
-      "favorited": false
-    },
-    {
-      "id": 17,
-      "artist": "Victor",
-      "songName": "Guitar Noise",
-      "album": "Gutter Trash",
-      "genre": "hardcore",
-      "plays": 1200,
-      "image": "https://cdn.vox-cdn.com/thumbor/0vb1MO7i4hU_aB9BjZzt-ibm5yY=/0x18:550x385/1400x1400/filters:focal(0x18:550x385):format(jpeg)/cdn.vox-cdn.com/uploads/chorus_image/image/31968043/galley12.0.jpg",
-      "releaseDate": "1986-05-21",
-      "favorited": true
-    },
-    {
-      "id": 18,
-      "artist": "Yoojin",
-      "songName": "I don't know",
-      "album": "Still Don't Know",
-      "genre": "hip hop",
-      "plays": 650,
-      "image": "https://media.gq.com/photos/58347f75c764ae804c6d1876/1:1/w_1831,h_1831,c_limit/cam-ron-lede.jpg",
-      "releaseDate": "2000-06-28",
-      "favorited": false
-    },
-    {
-      "id": 19,
-      "artist": "Alie",
-      "songName": "Groove Thang",
-      "album": "1999 Finest Disco",
-      "genre": "disco",
-      "plays": 2,
-      "image": "https://images.squarespace-cdn.com/content/v1/604c18096c8eba3fe76e1da5/1615705979983-4ED97SZ63J90WHQ1O5M0/feeling-groovy.jpg?format=1000w",
-      "releaseDate": "1999-01-03",
-      "favorited": false
-    },
-    {
-      "id": 20,
-      "artist": "Victor",
-      "songName": "Guitar Noise",
-      "album": "Gutter Trash",
-      "genre": "hardcore",
-      "plays": 1200,
-      "image": "https://cdn.vox-cdn.com/thumbor/0vb1MO7i4hU_aB9BjZzt-ibm5yY=/0x18:550x385/1400x1400/filters:focal(0x18:550x385):format(jpeg)/cdn.vox-cdn.com/uploads/chorus_image/image/31968043/galley12.0.jpg",
-      "releaseDate": "1986-05-21",
-      "favorited": true
-    },
-    {
-      "id": 21,
-      "artist": "Yoojin",
-      "songName": "I don't know",
-      "album": "Still Don't Know",
-      "genre": "hip hop",
-      "plays": 650,
-      "image": "https://media.gq.com/photos/58347f75c764ae804c6d1876/1:1/w_1831,h_1831,c_limit/cam-ron-lede.jpg",
-      "releaseDate": "2000-06-28",
-      "favorited": false
-    },
-    {
-      "id": 22,
-      "artist": "Alie",
-      "songName": "Groove Thang",
-      "album": "1999 Finest Disco",
-      "genre": "disco",
-      "plays": 2,
-      "image": "https://images.squarespace-cdn.com/content/v1/604c18096c8eba3fe76e1da5/1615705979983-4ED97SZ63J90WHQ1O5M0/feeling-groovy.jpg?format=1000w",
-      "releaseDate": "1999-01-03",
-      "favorited": false
-    },
-    {
-      "id": 23,
-      "artist": "Victor",
-      "songName": "Guitar Noise",
-      "album": "Gutter Trash",
-      "genre": "hardcore",
-      "plays": 1200,
-      "image": "https://cdn.vox-cdn.com/thumbor/0vb1MO7i4hU_aB9BjZzt-ibm5yY=/0x18:550x385/1400x1400/filters:focal(0x18:550x385):format(jpeg)/cdn.vox-cdn.com/uploads/chorus_image/image/31968043/galley12.0.jpg",
-      "releaseDate": "1986-05-21",
-      "favorited": false
-    },
-    {
-      "id": 24,
-      "artist": "Yoojin",
-      "songName": "I don't know",
-      "album": "Still Don't Know",
-      "genre": "hip hop",
-      "plays": 650,
-      "image": "https://media.gq.com/photos/58347f75c764ae804c6d1876/1:1/w_1831,h_1831,c_limit/cam-ron-lede.jpg",
-      "releaseDate": "2000-06-28",
-      "favorited": false
-    },
-    {
-      "id": 25,
-      "artist": "Alie",
-      "songName": "Groove Thang",
-      "album": "1999 Finest Disco",
-      "genre": "disco",
-      "plays": 2,
-      "image": "https://images.squarespace-cdn.com/content/v1/604c18096c8eba3fe76e1da5/1615705979983-4ED97SZ63J90WHQ1O5M0/feeling-groovy.jpg?format=1000w",
-      "releaseDate": "1999-01-03",
-      "favorited": false
-    },
-    {
-      "id": 26,
-      "artist": "Victor",
-      "songName": "Guitar Noise",
-      "album": "Gutter Trash",
-      "genre": "hardcore",
-      "plays": 1200,
-      "image": "https://cdn.vox-cdn.com/thumbor/0vb1MO7i4hU_aB9BjZzt-ibm5yY=/0x18:550x385/1400x1400/filters:focal(0x18:550x385):format(jpeg)/cdn.vox-cdn.com/uploads/chorus_image/image/31968043/galley12.0.jpg",
-      "releaseDate": "1986-05-21",
-      "favorited": false
-    },
-    {
-      "id": 27,
-      "artist": "Yoojin",
-      "songName": "I don't know",
-      "album": "Still Don't Know",
-      "genre": "hip hop",
-      "plays": 650,
-      "image": "https://media.gq.com/photos/58347f75c764ae804c6d1876/1:1/w_1831,h_1831,c_limit/cam-ron-lede.jpg",
-      "releaseDate": "2000-06-28",
-      "favorited": false
-    },
-    {
-      "id": 28,
-      "artist": "Alie",
-      "songName": "Groove Thang",
-      "album": "1999 Finest Disco",
-      "genre": "disco",
-      "plays": 2,
-      "image": "https://images.squarespace-cdn.com/content/v1/604c18096c8eba3fe76e1da5/1615705979983-4ED97SZ63J90WHQ1O5M0/feeling-groovy.jpg?format=1000w",
-      "releaseDate": "1999-01-03",
-      "favorited": false
-    },
-    {
-      "id": 29,
-      "artist": "Victor",
-      "songName": "Guitar Noise",
-      "album": "Gutter Trash",
-      "genre": "hardcore",
-      "plays": 1200,
-      "image": "https://cdn.vox-cdn.com/thumbor/0vb1MO7i4hU_aB9BjZzt-ibm5yY=/0x18:550x385/1400x1400/filters:focal(0x18:550x385):format(jpeg)/cdn.vox-cdn.com/uploads/chorus_image/image/31968043/galley12.0.jpg",
-      "releaseDate": "1986-05-21",
-      "favorited": false
-    },
-    {
-      "id": 30,
-      "artist": "Yoojin",
-      "songName": "I don't know",
-      "album": "Still Don't Know",
-      "genre": "hip hop",
-      "plays": 650,
-      "image": "https://media.gq.com/photos/58347f75c764ae804c6d1876/1:1/w_1831,h_1831,c_limit/cam-ron-lede.jpg",
-      "releaseDate": "2000-06-28",
       "favorited": false
     }
   ]
