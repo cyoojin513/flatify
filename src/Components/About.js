@@ -1,7 +1,6 @@
 import React from 'react'
 import { AboutGrid } from './Styles/Grids.style'
 import { AboutCard } from './Styles/Cards.style'
-import stockavatar from '../Images/stockavatar.jpeg'
 import linkedinVH from '../Images/linkedinVH.jpeg'
 import linkedinYC from '../Images/linkedinYC.jpg'
 import Alie from '../Images/Alie.jpg'
