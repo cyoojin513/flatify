@@ -13,7 +13,7 @@ function HomeCard({song, toggleFavoritedSong}) {
         <h4>{song.artist}</h4>
         <h4 className='favorite' onClick={() => 
         toggleFavoritedSong(song.id, !song.favorited)}>
-          {song.favorited ? <HiHeart color='#1dd761'/> : <HiOutlineHeart/>}
+          {song.favorited ? <HiHeart cursor="pointer" color='#1dd761'/> : <HiOutlineHeart cursor="pointer"/>}
       </h4>
       </div>
     </Card>
