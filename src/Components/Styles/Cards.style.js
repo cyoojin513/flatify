@@ -25,6 +25,8 @@ const Card = styled.div`
     color: white;
     padding-bottom: 10px;
     font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
   }
 
   h4 {

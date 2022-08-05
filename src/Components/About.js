@@ -1,9 +1,9 @@
 import React from 'react'
 import { AboutGrid } from './Styles/Grids.style'
 import { AboutCard } from './Styles/Cards.style'
-import stockavatar from '../Images/stockavatar.jpeg'
 import linkedinVH from '../Images/linkedinVH.jpeg'
 import linkedinYC from '../Images/linkedinYC.jpg'
+import Alie from '../Images/Alie.jpg'
 
 export default function About() {
   return (
@@ -11,8 +11,8 @@ export default function About() {
         <h1 className='aboutHeader'>About</h1>
         <AboutGrid>
             <AboutCard>
-                <h2>Allie Brubaker</h2>
-                <img src={stockavatar} alt="React-Dev-1"/>
+                <h2>Alie Brubaker</h2>
+                <img src={Alie} alt="React-Dev-1"/>
                 <p>
                     <a href="https://www.linkedin.com/in/alie-brubaker/">Linkedin</a>
                 </p>

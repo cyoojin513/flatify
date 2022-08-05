@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# Flatify: A React.js App featuring React Router, Styled Components and JSON Server
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+a project by [Alie Brubaker](https://www.linkedin.com/in/alie-brubaker/), [Victor Haynes](https://www.linkedin.com/in/victor-haynes/), [Yoojin Cheong](https://www.linkedin.com/in/yoojin-cheong/)
 
-## Available Scripts
 
-In the project directory, you can run:
+## About Flatify
 
-### `npm start`
+Flatify is a Spotify clone that demonstrates our foundational understanding of React, React Router, Styled Components, implementing a local API of spoofed data.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<img src='./src/Images/FlatifySample.png' width='1200px' height='auto'>
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+* The user navigates through the app in the sidebar menu rendering features individually in a single page application.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* The Home page displays a set of data based on release date and a set of data based on popularity.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* The Search page allows the user to search through the entire song database by artist, song name, album and genre. The results change in real time based on the user input.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* In both Home and Search, the user may click the heart icon to generate a list of favorites which is persistent and renders in the Library page. Songs can be unfavorited on any page and persist throughout the app as well.
 
-### `npm run eject`
+* The For Artists tab allows the user to add their own music to the song database which will render immediately and persist in the database.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## How to run
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+In order to run the project on the developer side, the user will need to install react-icons, styled components, and json-server.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+To run the app, the user will need to run the json-server by typing $ json-server --watch db.json from the command line. Then, in a new terminal the user will need to run npm start
