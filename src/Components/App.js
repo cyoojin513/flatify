@@ -5,8 +5,10 @@ import Library from './Library';
 import Search from './Search';
 import NavBar from './NavBar';
 import ForArtists from './ForArtists';
+import About from './About';
 import PageWrapper, {MainContentWrapper} from './Styles/Grids.style';
 import GlobalStyles from '../GlobalStyles';
+
 
 function App() {
   const [songs, setSongs] = useState([])
@@ -63,6 +65,9 @@ function App() {
           <ForArtists 
             updateSongsWithUserUpload={updateSongsWithUserUpload}
           />
+        </Route>
+        <Route path ="/about">
+          <About />
         </Route>
         <Route exact path ="/">
           <Home 

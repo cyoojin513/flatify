@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from './Styles/Card.style'
+import Card from './Styles/Cards.style'
 import { HiOutlineHeart, HiHeart } from 'react-icons/hi';
 
 function HomeCard({song, toggleFavoritedSong}) {

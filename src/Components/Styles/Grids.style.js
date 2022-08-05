@@ -26,6 +26,15 @@ const FormGrid = styled.div`
   grid-template-columns: 400px 400px;
   grid-template-rows: 100px 100px 100px;
 `
+const AboutGrid = styled.div`
+  display: grid;
+  margin-top: 100px;
+  margin-left: 100px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-rows: 1fr;
+  gap: 10px;
 
-export {MainContentWrapper, ContentGrid, FormGrid}
+`
+
+export {MainContentWrapper, ContentGrid, FormGrid, AboutGrid}
 export default PageWrapper;
